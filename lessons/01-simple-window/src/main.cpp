@@ -12,7 +12,7 @@ int main()
     // 1. Initialize GLFW
     if (!glfwInit())
     {
-        std::cerr << "Fehler: GLFW konnte nicht initialisiert werden.\n";
+        std::cerr << "Error: GLFW could not be initialized.\n";
         return 1;
     }
 
@@ -30,7 +30,7 @@ int main()
 
     if (window == nullptr)
     {
-        std::cerr << "Fehler: Fenster konnte nicht erstellt werden.\n";
+        std::cerr << "Error: Window could not be created.\n";
         glfwTerminate();
         return 1;
     }
